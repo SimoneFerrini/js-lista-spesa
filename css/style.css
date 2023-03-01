@@ -10,8 +10,11 @@
     flex-direction: column;
     align-items: center;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 2em auto;
     padding: 2em 0;
+
+    background-color: rgb(70, 138, 205);
+    border-radius: 5%;
 }
 
 .title-style{
@@ -21,9 +24,10 @@
 .inner-container-list{
     padding: 1em 2.5em;
     border: 1px solid grey;
-    border-radius: 0 15% 15% 0;
+    border-radius: 0 10% 10% 0;
 
     width: 50%;
+    background-color: antiquewhite;
 }
 
 .list-underline{
