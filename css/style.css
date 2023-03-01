@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.body-bgc{
+    background-color: rgb(40, 38, 38);
+}
+
 .my-container{
     display: flex;
     flex-direction: column;
@@ -18,7 +22,8 @@
 }
 
 .title-style{
- margin-bottom: 1em;   
+ margin-bottom: 1em;
+ color: white; 
 }
 
 .inner-container-list{
