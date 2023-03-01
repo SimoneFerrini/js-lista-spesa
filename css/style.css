@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.my-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.title-style{
+ margin-bottom: 1em;   
+}
+
+.inner-container-list{
+    padding: 1em 2.5em;
+    border: 1px solid grey;
+    border-radius: 0 15% 15% 0;
+
+    width: 50%;
+}
+
+.list-underline{
+    border-bottom: 1px solid grey;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.3em;
+}

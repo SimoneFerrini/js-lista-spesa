@@ -8,6 +8,7 @@ let indice = 0;
 while(indice < listaSpesa.length){
     let newListItem = document.createElement("li");
     listElements.append(newListItem);
+    newListItem.classList.add("list-underline");
     newListItem.innerHTML = listaSpesa[indice];
     indice++;
 }
